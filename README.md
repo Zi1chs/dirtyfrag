@@ -47,7 +47,7 @@ systems the rxrpc fallback is currently not portable to aarch64 — see
 ## Exploiting
 
 ```
-git clone https://github.com/<your-user>/dirtyfrag-aarch64.git && \
+git clone https://github.com/Zi1chs/dirtyfrag-aarch64.git && \
   cd dirtyfrag-aarch64 && \
   gcc -O0 -Wall -o exp exp.c -lutil && \
   ./exp
